@@ -12,7 +12,7 @@
     <children>
         <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0">
             <children>
-                <TextArea  fx:id="inputText" prefHeight="55.0" prefWidth="489.0" promptText="Bạn nhập chữ hoặc link file vào đây ?" />
+                <TextArea fx:id="inputText" prefHeight="55.0" prefWidth="489.0" promptText="Bạn nhập chữ hoặc link file vào đây ?" />
                 <Button fx:id="submit" mnemonicParsing="false" prefHeight="65.0" prefWidth="58.0" text="Run" />
             </children>
             <VBox.margin>
