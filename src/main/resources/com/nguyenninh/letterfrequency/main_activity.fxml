@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="30.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nguyenninh.letterfrequency.controllers.MainActivity">
+    <children>
+        <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+            <children>
+                <TextArea fx:id="inputText" prefHeight="55.0" prefWidth="489.0" promptText="Bạn nhập chữ hoặc link file vào đây ?" />
+                <Button fx:id="submit" mnemonicParsing="false" prefHeight="65.0" prefWidth="58.0" text="Run" />
+            </children>
+            <VBox.margin>
+                <Insets left="20.0" right="20.0" top="20.0" />
+            </VBox.margin>
+        </HBox>
+      <HBox prefHeight="600.0" prefWidth="340.0">
+         <children>
+              <TableView fx:id="tableView" prefHeight="340.0" prefWidth="600.0">
+                  <columns>
+                      <TableColumn fx:id="text" minWidth="300.0" prefWidth="75.0" text="Text" />
+                      <TableColumn fx:id="price" minWidth="300.0" prefWidth="75.0" text="Price" />
+                  </columns>
+              </TableView>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" />
+         </padding>
+      </HBox>
+    </children>
+</VBox>
