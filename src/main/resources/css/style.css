@@ -1,0 +1,14 @@
+* {
+    -fx-padding: 0;
+    -fx-margin: 0;
+    -fx-font-family: Arial;
+}
+
+#tabPane {
+    -fx-background-color: #fff;
+}
+
+.tab {
+    -fx-pref-height: 30px;
+    -fx-pref-width: 50px;
+}

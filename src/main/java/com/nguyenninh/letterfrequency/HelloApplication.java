@@ -22,6 +22,8 @@ public class HelloApplication extends Application {
         stage.setTitle("Letter Frequency");
         stage.setResizable(false);
 
+        scene.getStylesheets().add(getClass().getResource("/css/style.css").toExternalForm());
+
         stage.setScene(scene);
         stage.show();
     }
